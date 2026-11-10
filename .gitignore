@@ -1,0 +1,19 @@
+# Keep machine-specific evidence private until reviewed and redacted.
+local-evidence/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.venv/
+vendor/
+
+# Personal documents and working files stay outside the project repository.
+/output/pdf/
+/output/reproduced/
+/tmp/
+*.vmdk
+*.vmem
+*.vmsn
+*.vmx

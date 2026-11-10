@@ -1,0 +1,43 @@
+%YAML 1.1
+---
+default-log-dir: /var/log/suricata/soc-lab
+default-rule-path: /etc/soc-suricata
+rule-files:
+  - soc-suricata.rules
+stats:
+  enabled: no
+capture:
+  disable-offloading: false
+pcap:
+  - interface: lo
+    checksum-checks: no
+outputs:
+  - eve-log:
+      enabled: yes
+      filetype: regular
+      filename: eve.json
+      types:
+        - alert:
+            metadata: yes
+            payload: no
+            packet: no
+            http-body: no
+            http-body-printable: no
+flow:
+  memcap: 16mb
+  hash-size: 4096
+  prealloc: 128
+stream:
+  memcap: 16mb
+  prealloc-sessions: 128
+  checksum-validation: no
+  inline: no
+  reassembly:
+    memcap: 16mb
+    depth: 64kb
+detect:
+  profile: low
+app-layer:
+  protocols:
+    http:
+      enabled: yes

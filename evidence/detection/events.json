@@ -1,0 +1,280 @@
+{
+  "web_archives": [
+    {
+      "index_document_id": "6BPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.218207",
+      "timestamp": "2026-11-08T08:35:08.132+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": "/index.html?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "200"
+    },
+    {
+      "index_document_id": "6RPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.218207",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "100110",
+      "rule_level": 7,
+      "path": "/.env?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    },
+    {
+      "index_document_id": "-xPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.224699",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "31101",
+      "rule_level": 5,
+      "path": "/docs/.env-guide?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    },
+    {
+      "index_document_id": "6hPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.218207",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "31101",
+      "rule_level": 5,
+      "path": "/.env.example?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    },
+    {
+      "index_document_id": "6xPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.218207",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "31101",
+      "rule_level": 5,
+      "path": "/ordinary-missing-page?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    }
+  ],
+  "web_alerts": [
+    {
+      "index_document_id": "1BPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.218582",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "100110",
+      "rule_level": 7,
+      "path": "/.env?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    },
+    {
+      "index_document_id": "4BPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.224220",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "31101",
+      "rule_level": 5,
+      "path": "/docs/.env-guide?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    },
+    {
+      "index_document_id": "1hPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.219432",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "31101",
+      "rule_level": 5,
+      "path": "/ordinary-missing-page?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    },
+    {
+      "index_document_id": "1RPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.218956",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/nginx/soc_access.log",
+      "rule_id": "31101",
+      "rule_level": 5,
+      "path": "/.env.example?soc_run=soc-detect-1d64d29b1512",
+      "http_status": "404"
+    }
+  ],
+  "ssh_archives": [
+    {
+      "index_document_id": "-BPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.224699",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "_RPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.224699",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "DxPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126910.227942",
+      "timestamp": "2026-11-08T08:35:10.132+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "DhPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126910.227942",
+      "timestamp": "2026-11-08T08:35:10.132+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "EBPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126910.228479",
+      "timestamp": "2026-11-08T08:35:10.134+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "ERPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126910.228479",
+      "timestamp": "2026-11-08T08:35:10.136+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "HRPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126912.230072",
+      "timestamp": "2026-11-08T08:35:12.132+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "IRPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126912.230072",
+      "timestamp": "2026-11-08T08:35:12.179+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "JBPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126912.230072",
+      "timestamp": "2026-11-08T08:35:12.179+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "HhPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126912.230072",
+      "timestamp": "2026-11-08T08:35:12.179+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "NRPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126914.232375",
+      "timestamp": "2026-11-08T08:35:14.133+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "NhPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126914.232375",
+      "timestamp": "2026-11-08T08:35:14.133+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": null,
+      "rule_level": null,
+      "path": null,
+      "http_status": null
+    }
+  ],
+  "ssh_alerts": [
+    {
+      "index_document_id": "3hPeu6EBGa9eTEWM-dZN",
+      "event_id": "1794126908.223173",
+      "timestamp": "2026-11-08T08:35:08.175+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "FhPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126910.227942",
+      "timestamp": "2026-11-08T08:35:10.132+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "FxPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126910.228479",
+      "timestamp": "2026-11-08T08:35:10.134+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "GhPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126912.230072",
+      "timestamp": "2026-11-08T08:35:12.132+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "HBPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126912.231838",
+      "timestamp": "2026-11-08T08:35:12.179+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    },
+    {
+      "index_document_id": "JhPeu6EBGa9eTEWM-ddN",
+      "event_id": "1794126914.232903",
+      "timestamp": "2026-11-08T08:35:14.133+0000",
+      "location": "/var/log/auth.log",
+      "rule_id": "5710",
+      "rule_level": 5,
+      "path": null,
+      "http_status": null
+    }
+  ]
+}

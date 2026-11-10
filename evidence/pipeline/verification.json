@@ -1,0 +1,20 @@
+{
+  "run_id": "soc-pipeline-c63df288ed76",
+  "http_status": 200,
+  "nginx_archive_matches": 1,
+  "ssh_success_matches": 5,
+  "nginx_event_ids": [
+    "1794124802.53569"
+  ],
+  "nginx_index_ids": [
+    "2xPeu6EBGa9eTEWM-dBN"
+  ],
+  "ssh_alert_ids": [
+    "1794124800.48413",
+    "1794124800.47078",
+    "1794124740.41310",
+    "1794124740.43136",
+    "1794124698.32826"
+  ],
+  "passed": true
+}

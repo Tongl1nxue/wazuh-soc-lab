@@ -1,0 +1,11 @@
+﻿record_type,category,timestamp_utc,timestamp_china,agent_alias,index,document_id,event_id,rule_id,rule_level,http_status,url_path,log_source
+alert,Web敏感路径请求,2026-11-08T08:35:08.175000+00:00,2026-11-08T16:35:08.175000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,1BPeu6EBGa9eTEWM-dZN,1794126908.218582,100110,7,404,/.env?soc_run=soc-detect-1d64d29b1512,/var/log/nginx/soc_access.log
+alert,Web普通4xx告警,2026-11-08T08:35:08.175000+00:00,2026-11-08T16:35:08.175000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,1RPeu6EBGa9eTEWM-dZN,1794126908.218956,31101,5,404,/.env.example?soc_run=soc-detect-1d64d29b1512,/var/log/nginx/soc_access.log
+alert,Web普通4xx告警,2026-11-08T08:35:08.175000+00:00,2026-11-08T16:35:08.175000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,1hPeu6EBGa9eTEWM-dZN,1794126908.219432,31101,5,404,/ordinary-missing-page?soc_run=soc-detect-1d64d29b1512,/var/log/nginx/soc_access.log
+alert,SSH无效用户连接,2026-11-08T08:35:08.175000+00:00,2026-11-08T16:35:08.175000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,3hPeu6EBGa9eTEWM-dZN,1794126908.223173,5710,5,,,/var/log/auth.log
+alert,Web普通4xx告警,2026-11-08T08:35:08.175000+00:00,2026-11-08T16:35:08.175000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,4BPeu6EBGa9eTEWM-dZN,1794126908.224220,31101,5,404,/docs/.env-guide?soc_run=soc-detect-1d64d29b1512,/var/log/nginx/soc_access.log
+alert,SSH无效用户连接,2026-11-08T08:35:10.132000+00:00,2026-11-08T16:35:10.132000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,FhPeu6EBGa9eTEWM-ddN,1794126910.227942,5710,5,,,/var/log/auth.log
+alert,SSH无效用户连接,2026-11-08T08:35:10.134000+00:00,2026-11-08T16:35:10.134000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,FxPeu6EBGa9eTEWM-ddN,1794126910.228479,5710,5,,,/var/log/auth.log
+alert,SSH无效用户连接,2026-11-08T08:35:12.132000+00:00,2026-11-08T16:35:12.132000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,GhPeu6EBGa9eTEWM-ddN,1794126912.230072,5710,5,,,/var/log/auth.log
+alert,SSH无效用户连接,2026-11-08T08:35:12.179000+00:00,2026-11-08T16:35:12.179000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,HBPeu6EBGa9eTEWM-ddN,1794126912.231838,5710,5,,,/var/log/auth.log
+alert,SSH无效用户连接,2026-11-08T08:35:14.133000+00:00,2026-11-08T16:35:14.133000+08:00,LAB-UBUNTU,wazuh-alerts-4.x-2026.11.08,JhPeu6EBGa9eTEWM-ddN,1794126914.232903,5710,5,,,/var/log/auth.log

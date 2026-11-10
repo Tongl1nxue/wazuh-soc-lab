@@ -1,0 +1,418 @@
+{
+  "run_id": "soc-detect-1d64d29b1512",
+  "web_archives": {
+    "timed_out": false,
+    "_shards": {
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 5,
+        "relation": "eq"
+      },
+      "hits": [
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "6BPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.218207",
+            "timestamp": "2026-11-08T08:35:08.132+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "data": {
+              "id": "200",
+              "url": "/index.html?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "6RPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.218207",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "100110",
+              "level": 7
+            },
+            "data": {
+              "id": "404",
+              "url": "/.env?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "-xPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.224699",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "31101",
+              "level": 5
+            },
+            "data": {
+              "id": "404",
+              "url": "/docs/.env-guide?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "6hPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.218207",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "31101",
+              "level": 5
+            },
+            "data": {
+              "id": "404",
+              "url": "/.env.example?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "6xPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.218207",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "31101",
+              "level": 5
+            },
+            "data": {
+              "id": "404",
+              "url": "/ordinary-missing-page?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ssh_archives": {
+    "timed_out": false,
+    "_shards": {
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 12,
+        "relation": "eq"
+      },
+      "hits": [
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "-BPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.224699",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "_RPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.224699",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/auth.log"
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "DxPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126910.227942",
+            "timestamp": "2026-11-08T08:35:10.132+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "DhPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126910.227942",
+            "timestamp": "2026-11-08T08:35:10.132+0000",
+            "location": "/var/log/auth.log"
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "EBPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126910.228479",
+            "timestamp": "2026-11-08T08:35:10.134+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "ERPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126910.228479",
+            "timestamp": "2026-11-08T08:35:10.136+0000",
+            "location": "/var/log/auth.log"
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "HRPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126912.230072",
+            "timestamp": "2026-11-08T08:35:12.132+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "IRPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126912.230072",
+            "timestamp": "2026-11-08T08:35:12.179+0000",
+            "location": "/var/log/auth.log"
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "JBPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126912.230072",
+            "timestamp": "2026-11-08T08:35:12.179+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "HhPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126912.230072",
+            "timestamp": "2026-11-08T08:35:12.179+0000",
+            "location": "/var/log/auth.log"
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "NRPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126914.232375",
+            "timestamp": "2026-11-08T08:35:14.133+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-archives-4.x-2026.11.08",
+          "_id": "NhPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126914.232375",
+            "timestamp": "2026-11-08T08:35:14.133+0000",
+            "location": "/var/log/auth.log"
+          }
+        }
+      ]
+    }
+  },
+  "web_alerts": {
+    "timed_out": false,
+    "_shards": {
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 4,
+        "relation": "eq"
+      },
+      "hits": [
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "1BPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.218582",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "100110",
+              "level": 7
+            },
+            "data": {
+              "id": "404",
+              "url": "/.env?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "4BPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.224220",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "31101",
+              "level": 5
+            },
+            "data": {
+              "id": "404",
+              "url": "/docs/.env-guide?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "1hPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.219432",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "31101",
+              "level": 5
+            },
+            "data": {
+              "id": "404",
+              "url": "/ordinary-missing-page?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "1RPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.218956",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/nginx/soc_access.log",
+            "rule": {
+              "id": "31101",
+              "level": 5
+            },
+            "data": {
+              "id": "404",
+              "url": "/.env.example?soc_run=soc-detect-1d64d29b1512"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "ssh_alerts": {
+    "timed_out": false,
+    "_shards": {
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 6,
+        "relation": "eq"
+      },
+      "hits": [
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "3hPeu6EBGa9eTEWM-dZN",
+          "_source": {
+            "id": "1794126908.223173",
+            "timestamp": "2026-11-08T08:35:08.175+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "FhPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126910.227942",
+            "timestamp": "2026-11-08T08:35:10.132+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "FxPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126910.228479",
+            "timestamp": "2026-11-08T08:35:10.134+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "GhPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126912.230072",
+            "timestamp": "2026-11-08T08:35:12.132+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "HBPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126912.231838",
+            "timestamp": "2026-11-08T08:35:12.179+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        },
+        {
+          "_index": "wazuh-alerts-4.x-2026.11.08",
+          "_id": "JhPeu6EBGa9eTEWM-ddN",
+          "_source": {
+            "id": "1794126914.232903",
+            "timestamp": "2026-11-08T08:35:14.133+0000",
+            "location": "/var/log/auth.log",
+            "rule": {
+              "id": "5710",
+              "level": 5
+            }
+          }
+        }
+      ]
+    }
+  }
+}

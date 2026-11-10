@@ -1,0 +1,9 @@
+<group name="web,accesslog,soc_lab,">
+  <rule id="100110" level="7">
+    <if_sid>31101</if_sid>
+    <id>^404$</id>
+    <url type="pcre2">^/\.env(?:\?.*)?$</url>
+    <description>Denied request for environment configuration path (lab).</description>
+    <group>soc_sensitive_path,</group>
+  </rule>
+</group>

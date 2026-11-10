@@ -1,0 +1,4 @@
+﻿category,rule_id,rule_level,alert_count
+SSH无效用户连接,5710,5,6
+Web敏感路径请求,100110,7,1
+Web普通4xx告警,31101,5,3

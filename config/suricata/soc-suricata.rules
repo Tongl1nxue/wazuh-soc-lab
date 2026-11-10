@@ -1,0 +1,1 @@
+alert http 127.0.0.1 any -> 127.0.0.1 8080 (msg:"SOC lab GET environment configuration path"; flow:established,to_server; http.method; content:"GET"; http.uri; content:"/.env"; startswith; pcre:"/^\/\.env(?:\?|$)/"; sid:1000001; rev:1;)

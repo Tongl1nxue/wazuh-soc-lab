@@ -1,0 +1,15 @@
+{
+  "source": "user_pasted_dashboard_query_result",
+  "review_date": "2026-11-08",
+  "run_id": "soc-pipeline-c63df288ed76",
+  "query_scope": "full_log marker only, without location filter",
+  "total_matches": 3,
+  "nginx_access_matches": 1,
+  "administrative_evidence_read_matches": 2,
+  "administrative_sources": ["journald", "/var/log/auth.log"],
+  "nginx_document_id": "2xPeu6EBGa9eTEWM-dBN",
+  "nginx_http_status": 200,
+  "nginx_decoder": "web-accesslog",
+  "administrative_rule_id": "5402",
+  "conclusion": "User independently retrieved the expected Nginx event. Additional matches represent evidence-read sudo activity in two log sources, not additional Nginx requests."
+}

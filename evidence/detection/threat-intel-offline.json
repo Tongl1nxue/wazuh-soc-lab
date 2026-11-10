@@ -1,0 +1,192 @@
+{
+  "mode": "offline",
+  "source": "wazuh_snapshots",
+  "alerts": [
+    {
+      "alert_id": "1794299394.77137",
+      "rule_id": "5716",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "4gw-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299394.77700",
+      "rule_id": "5716",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "4ww-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299394.78263",
+      "rule_id": "5716",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "5Aw-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299394.79798",
+      "rule_id": "5715",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "5ww-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299394.82178",
+      "rule_id": "5715",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "7Aw-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299396.84558",
+      "rule_id": "5715",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "8Qw-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299396.85966",
+      "rule_id": "5716",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "9Aw-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794299396.87501",
+      "rule_id": "5715",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "9ww-xqEBQhHEctzNwjhq",
+      "input": "ssh-sequence-live.json",
+      "run_id": "socseq2721380324",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794300261.255564",
+      "rule_id": "86601",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "6ww-xqEBQhHEctzNwj1q",
+      "input": "suricata-live.json",
+      "run_id": "soc-ids-014ed23650fa",
+      "lookups": [
+        {
+          "kind": "ip",
+          "indicator": "127.0.0.1",
+          "provider": "abuseipdb",
+          "status": "skipped_non_public"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794300261.258098",
+      "rule_id": "100110",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "7gw-xqEBQhHEctzNwj1q",
+      "input": "suricata-live.json",
+      "run_id": "soc-ids-014ed23650fa",
+      "lookups": [
+        {
+          "status": "no_indicator"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794301553.309214",
+      "rule_id": "554",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "Aww-xqEBQhHEctzNwkBq",
+      "input": "threat-intel-fim.json",
+      "run_id": "soc-fim-61b91737dc72",
+      "lookups": [
+        {
+          "kind": "hash",
+          "indicator": "5f185ff21b3910fbb365a59cfe343212a92745a4534c7fb1b4891c6f09cb132e",
+          "provider": "virustotal",
+          "status": "offline"
+        }
+      ]
+    },
+    {
+      "alert_id": "1794301557.320583",
+      "rule_id": "553",
+      "index": "wazuh-alerts-4.x-2026.11.10",
+      "document_id": "HQw-xqEBQhHEctzNwkBq",
+      "input": "threat-intel-fim.json",
+      "run_id": "soc-fim-61b91737dc72",
+      "lookups": [
+        {
+          "status": "no_indicator"
+        }
+      ]
+    }
+  ]
+}

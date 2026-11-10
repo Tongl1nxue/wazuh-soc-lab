@@ -1,0 +1,101 @@
+{
+  "run_id": "soc-ids-014ed23650fa",
+  "mode": "passive_ids",
+  "capture_interface": "lo",
+  "suricata_version": "This is Suricata version 6.0.4 RELEASE",
+  "suricata_memory_bytes": 148865024,
+  "eve_bytes": 2113,
+  "requests": [
+    {
+      "uri": "/index.html?soc_run=soc-ids-014ed23650fa",
+      "status": 200,
+      "nginx_archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "Cgw-xqEBQhHEctzNwj5q",
+        "event_id": "1794300261.255131",
+        "timestamp": "2026-11-10T08:44:21.122+0000",
+        "rule_id": null,
+        "rule_level": null
+      },
+      "suricata_match": false,
+      "wazuh_web_match": false
+    },
+    {
+      "uri": "/.env.example?soc_run=soc-ids-014ed23650fa",
+      "status": 404,
+      "nginx_archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "Cww-xqEBQhHEctzNwj5q",
+        "event_id": "1794300261.257639",
+        "timestamp": "2026-11-10T08:44:21.127+0000",
+        "rule_id": "31101",
+        "rule_level": 5
+      },
+      "suricata_match": false,
+      "wazuh_web_match": false
+    },
+    {
+      "uri": "/docs/.env-guide?soc_run=soc-ids-014ed23650fa",
+      "status": 404,
+      "nginx_archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "DAw-xqEBQhHEctzNwj5q",
+        "event_id": "1794300261.257639",
+        "timestamp": "2026-11-10T08:44:21.127+0000",
+        "rule_id": "31101",
+        "rule_level": 5
+      },
+      "suricata_match": false,
+      "wazuh_web_match": false
+    },
+    {
+      "uri": "/.env?soc_run=soc-ids-014ed23650fa",
+      "status": 404,
+      "nginx_archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "DQw-xqEBQhHEctzNwj5q",
+        "event_id": "1794300261.257639",
+        "timestamp": "2026-11-10T08:44:21.135+0000",
+        "rule_id": "100110",
+        "rule_level": 7
+      },
+      "suricata_match": true,
+      "wazuh_web_match": true
+    }
+  ],
+  "suricata_eve": {
+    "timestamp": "2026-11-10T16:44:19.616952+0800",
+    "flow_id": 892729779513776,
+    "source_ip": "127.0.0.1",
+    "destination_ip": "127.0.0.1",
+    "destination_port": 8080,
+    "uri": "/.env?soc_run=soc-ids-014ed23650fa",
+    "signature_id": 1000001,
+    "action": "allowed"
+  },
+  "wazuh_eve_archive": {
+    "index": "wazuh-archives-4.x-2026.11.10",
+    "document_id": "CQw-xqEBQhHEctzNwj5q",
+    "event_id": "1794300261.255131",
+    "timestamp": "2026-11-10T08:44:21.122+0000",
+    "rule_id": "86601",
+    "rule_level": 3
+  },
+  "wazuh_eve_alert": {
+    "index": "wazuh-alerts-4.x-2026.11.10",
+    "document_id": "6ww-xqEBQhHEctzNwj1q",
+    "event_id": "1794300261.255564",
+    "timestamp": "2026-11-10T08:44:21.122+0000",
+    "rule_id": "86601",
+    "rule_level": 3
+  },
+  "wazuh_nginx_alert": {
+    "index": "wazuh-alerts-4.x-2026.11.10",
+    "document_id": "7gw-xqEBQhHEctzNwj1q",
+    "event_id": "1794300261.258098",
+    "timestamp": "2026-11-10T08:44:21.135+0000",
+    "rule_id": "100110",
+    "rule_level": 7
+  },
+  "passed": true
+}

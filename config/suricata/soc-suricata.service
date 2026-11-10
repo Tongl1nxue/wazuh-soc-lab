@@ -1,0 +1,16 @@
+[Unit]
+Description=SOC lab passive Suricata loopback IDS
+After=network.target
+
+[Service]
+Type=simple
+LogsDirectory=suricata/soc-lab
+LogsDirectoryMode=0750
+UMask=0027
+NoNewPrivileges=yes
+ExecStart=/usr/bin/suricata -c /etc/soc-suricata/soc-suricata.yaml --pcap=lo --runmode=single "tcp and host 127.0.0.1 and port 8080"
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target

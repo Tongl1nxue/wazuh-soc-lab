@@ -1,0 +1,46 @@
+{
+  "broad_candidate": {
+    "/index.html": {
+      "rule_id": "31100",
+      "exit": 0
+    },
+    "/ordinary-missing-page": {
+      "rule_id": "31101",
+      "exit": 0
+    },
+    "/docs/.env-guide": {
+      "rule_id": "100110",
+      "exit": 0
+    },
+    "/.env": {
+      "rule_id": "100110",
+      "exit": 0
+    },
+    "/.env.example": {
+      "rule_id": "100110",
+      "exit": 0
+    }
+  },
+  "tuned": {
+    "/index.html": {
+      "rule_id": "31100",
+      "exit": 0
+    },
+    "/ordinary-missing-page": {
+      "rule_id": "31101",
+      "exit": 0
+    },
+    "/docs/.env-guide": {
+      "rule_id": "31101",
+      "exit": 0
+    },
+    "/.env": {
+      "rule_id": "100110",
+      "exit": 0
+    },
+    "/.env.example": {
+      "rule_id": "31101",
+      "exit": 0
+    }
+  }
+}

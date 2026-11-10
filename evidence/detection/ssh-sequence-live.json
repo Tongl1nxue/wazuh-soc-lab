@@ -1,0 +1,177 @@
+{
+  "run_id": "socseq2721380324",
+  "source": "live_wazuh_index_queries",
+  "events": [
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-01",
+      "timestamp": "2026-11-10T08:29:54.688+0000",
+      "outcome": "failure",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "Hgw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299394.77137",
+          "rule_id": "5716",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "4gw-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-02",
+      "timestamp": "2026-11-10T08:29:54.694+0000",
+      "outcome": "failure",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "IQw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299394.77700",
+          "rule_id": "5716",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "4ww-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-03",
+      "timestamp": "2026-11-10T08:29:54.700+0000",
+      "outcome": "failure",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "JAw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299394.78263",
+          "rule_id": "5716",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "5Aw-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "B",
+      "connection": "conn-04",
+      "timestamp": "2026-11-10T08:29:54.713+0000",
+      "outcome": "success",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "Kgw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299394.79798",
+          "rule_id": "5715",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "5ww-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-05",
+      "timestamp": "2026-11-10T08:29:54.736+0000",
+      "outcome": "success",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "NQw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299394.82178",
+          "rule_id": "5715",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "7Aw-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-06",
+      "timestamp": "2026-11-10T08:29:56.646+0000",
+      "outcome": "success",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "QAw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299396.84558",
+          "rule_id": "5715",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "8Qw-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-07",
+      "timestamp": "2026-11-10T08:29:56.663+0000",
+      "outcome": "failure",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "SAw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299396.85966",
+          "rule_id": "5716",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "9Aw-xqEBQhHEctzNwjhq"
+        }
+      ]
+    },
+    {
+      "host": "LAB-UBUNTU",
+      "source_ip": "127.0.0.1",
+      "account": "A",
+      "connection": "conn-08",
+      "timestamp": "2026-11-10T08:29:56.675+0000",
+      "outcome": "success",
+      "archive": {
+        "index": "wazuh-archives-4.x-2026.11.10",
+        "document_id": "Tgw-xqEBQhHEctzNwjlq"
+      },
+      "alerts": [
+        {
+          "event_id": "1794299396.87501",
+          "rule_id": "5715",
+          "index": "wazuh-alerts-4.x-2026.11.10",
+          "document_id": "9ww-xqEBQhHEctzNwjhq"
+        }
+      ]
+    }
+  ],
+  "archive_hit_count": 36,
+  "alert_hit_count": 20,
+  "temporary_accounts_removed": true,
+  "native_rule_ids": [
+    "5501",
+    "5502",
+    "5715",
+    "5716",
+    "5902",
+    "5903"
+  ]
+}

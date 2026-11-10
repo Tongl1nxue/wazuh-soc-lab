@@ -1,0 +1,52 @@
+{
+  "run_id": "soc-fim-61b91737dc72",
+  "source": "real_harmless_local_file",
+  "local_sha256": "5f185ff21b3910fbb365a59cfe343212a92745a4534c7fb1b4891c6f09cb132e",
+  "file_removed": true,
+  "timed_out": false,
+  "_shards": {
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "hits": [
+      {
+        "_index": "wazuh-alerts-4.x-2026.11.10",
+        "_id": "Aww-xqEBQhHEctzNwkBq",
+        "_source": {
+          "id": "1794301553.309214",
+          "timestamp": "2026-11-10T09:05:53.558+0000",
+          "rule": {
+            "id": "554"
+          },
+          "syscheck": {
+            "path": "/opt/soc-lab/ti-fim/soc-fim-61b91737dc72.txt",
+            "event": "added",
+            "mode": "realtime",
+            "sha256_after": "5f185ff21b3910fbb365a59cfe343212a92745a4534c7fb1b4891c6f09cb132e"
+          }
+        }
+      },
+      {
+        "_index": "wazuh-alerts-4.x-2026.11.10",
+        "_id": "HQw-xqEBQhHEctzNwkBq",
+        "_source": {
+          "id": "1794301557.320583",
+          "timestamp": "2026-11-10T09:05:57.590+0000",
+          "rule": {
+            "id": "553"
+          },
+          "syscheck": {
+            "path": "/opt/soc-lab/ti-fim/soc-fim-61b91737dc72.txt",
+            "event": "deleted",
+            "mode": "realtime",
+            "sha256_after": "5f185ff21b3910fbb365a59cfe343212a92745a4534c7fb1b4891c6f09cb132e"
+          }
+        }
+      }
+    ]
+  }
+}

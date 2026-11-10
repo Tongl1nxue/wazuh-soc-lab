@@ -1,0 +1,54 @@
+{
+  "run_id": "soc-detect-1d64d29b1512",
+  "requested_paths": [
+    {
+      "path": "/index.html",
+      "status": 200,
+      "url": "http://127.0.0.1:8080/index.html?soc_run=soc-detect-1d64d29b1512"
+    },
+    {
+      "path": "/ordinary-missing-page",
+      "status": 404,
+      "url": "http://127.0.0.1:8080/ordinary-missing-page?soc_run=soc-detect-1d64d29b1512"
+    },
+    {
+      "path": "/docs/.env-guide",
+      "status": 404,
+      "url": "http://127.0.0.1:8080/docs/.env-guide?soc_run=soc-detect-1d64d29b1512"
+    },
+    {
+      "path": "/.env",
+      "status": 404,
+      "url": "http://127.0.0.1:8080/.env?soc_run=soc-detect-1d64d29b1512"
+    },
+    {
+      "path": "/.env.example",
+      "status": 404,
+      "url": "http://127.0.0.1:8080/.env.example?soc_run=soc-detect-1d64d29b1512"
+    }
+  ],
+  "ssh_connections": 6,
+  "ssh_nonzero_exits": 6,
+  "web_archive_count": 5,
+  "custom_alert_count": 1,
+  "custom_alert_ids": [
+    "1794126908.218582"
+  ],
+  "ssh_rule_ids": [
+    "5710"
+  ],
+  "ssh_alert_ids": [
+    "1794126908.223173",
+    "1794126910.227942",
+    "1794126910.228479",
+    "1794126912.230072",
+    "1794126912.231838",
+    "1794126914.232903"
+  ],
+  "negative_custom_matches": 0,
+  "passed": true,
+  "ssh_invalid_user_log_entries": 6,
+  "reconciled_at": "2026-11-08T16:36:24.502131+08:00",
+  "free_disk_gib": 38.2,
+  "filebeat_version": "filebeat version 7.10.2 (amd64), libbeat 7.10.2 [aacf9ecd9c494aa0908f61fbca82c906b16562a8 built 2025-10-17 12:05:34 +0000 UTC]"
+}

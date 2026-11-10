@@ -1,0 +1,15 @@
+/var/log/suricata/soc-lab/eve.json {
+    daily
+    maxsize 2M
+    rotate 2
+    compress
+    delaycompress
+    missingok
+    notifempty
+    create 0640 root root
+    postrotate
+        if /usr/bin/systemctl is-active --quiet soc-suricata.service; then
+            /usr/bin/systemctl kill --signal=HUP --kill-who=main soc-suricata.service
+        fi
+    endscript
+}

@@ -1,0 +1,32 @@
+{
+  "run_id": "soc-detect-1d64d29b1512",
+  "scope": "single_authorized_lab_snapshot",
+  "archive_records": 17,
+  "alert_records": 10,
+  "alert_counts_by_rule": {
+    "100110": 1,
+    "31101": 3,
+    "5710": 6
+  },
+  "query_completeness": {
+    "web_archives": {
+      "returned": 5,
+      "total": 5
+    },
+    "ssh_archives": {
+      "returned": 12,
+      "total": 12
+    },
+    "web_alerts": {
+      "returned": 4,
+      "total": 4
+    },
+    "ssh_alerts": {
+      "returned": 6,
+      "total": 6
+    }
+  },
+  "counting_note": "Archives and alerts are counted separately; alert rows are not incident counts.",
+  "redaction": "Original usernames, addresses, raw logs and secrets are excluded; host uses an alias.",
+  "source_sha256": "87b658b8801c42e1eaf88e9e3b2461b09e473ed9f53f1f875f8c71268802a8e2"
+}
